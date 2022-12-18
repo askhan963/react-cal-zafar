@@ -1,0 +1,91 @@
+
+* {
+    font-size: 50px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 3px 2px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal-app {
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 400px;
+    text-align: center;
+}
+
+.NumberPad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(60px, auto);
+    color: black;
+}
+
+input[type = "text"] {
+    background-color: white;
+    font-size: 30px;
+    width: 380px;
+    height: 60px;
+    outline: none;
+    font-size: 1rem;
+}
+
+#clear {
+    grid-column: 1/3;
+    grid-row: 1;
+    color: white;
+    background-color: orange;
+}
+
+#clear {
+    background-color: orange;
+}
+
+#clear:hover{
+    scale: 0.6;
+    background-color: gray;
+}
+
+#Operand {
+background-color: orange;
+}
+
+#Operand:hover {
+    scale: 0.6;
+    background-color: gray;
+}
+
+#out {
+    color: white;
+    background-color: orange;
+}
+
+#out:hover {
+    scale: 0.6;
+    background-color: gray;
+}
+
+#backspace {
+    color: white;
+    background-color: orange;
+}
+
+#backspace:hover {
+    scale: 0.6;
+    background-color: gray;
+}
+
+button {
+    background-color: white;
+    font-size: 20px;
+}
+ 
+button:hover {
+    scale: 0.6;
+    background-color: gray;
+}
